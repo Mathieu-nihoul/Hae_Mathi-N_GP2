@@ -1,6 +1,7 @@
 #pragma once
 
 class Vec2 {
+public:
 	int x;
 	int y;
 
@@ -10,7 +11,8 @@ class Vec2 {
 	}
 
 	Vec2() {
-
+		this->x = 0;
+		this->y = 0;
 	}
 	Vec2 Add(Vec2 a) {
 		Vec2 b;
