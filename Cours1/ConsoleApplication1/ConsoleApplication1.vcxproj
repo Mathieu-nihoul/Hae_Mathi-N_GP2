@@ -151,7 +151,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Arr.h" />
+    <ClInclude Include="Class.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="Vec2T.h" />
+    <ClInclude Include="Vec3.hpp" />
+    <ClInclude Include="Vec3T.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ConsoleApplication1.cpp" />

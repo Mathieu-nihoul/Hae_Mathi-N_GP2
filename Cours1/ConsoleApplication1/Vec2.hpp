@@ -14,6 +14,9 @@ public:
 		this->x = 0;
 		this->y = 0;
 	}
+	/*~Vec2() {
+		cout << "supprimé" << to_string(x) << endl;
+	}*/
 	Vec2 Add(Vec2 a) {
 		Vec2 b;
 		b.x = this->x + a.x;
@@ -38,5 +41,16 @@ public:
 		b.y = this->y / a.y;
 		return b;
 	}
+
+	void incr(Vec2 *a) {
+		(*a).x+= this ->x;
+		
+	}
+	void incr(Vec2 & a) {
+		a.x += this->x;
+
+	}
+	
+
 };
 
