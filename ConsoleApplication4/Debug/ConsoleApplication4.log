@@ -1,0 +1,20 @@
+﻿  ConsoleApplication4.cpp
+c:\users\etudiant\source\repos\consoleapplication4\dynarr.hpp(26): warning C4018: '>=' : incompatibilité signed/unsigned
+  c:\users\etudiant\source\repos\consoleapplication4\dynarr.hpp(24): note: pendant la compilation de la fonction membre '<Inconnu>' (classe <Inconnu>)
+  c:\users\etudiant\source\repos\consoleapplication4\consoleapplication4.cpp(30): note: voir la référence à l'instanciation de la fonction modèle 'void DynArr<float>::Set(int,const T &)' en cours de compilation
+          with
+          [
+              T=float
+          ]
+  c:\users\etudiant\source\repos\consoleapplication4\consoleapplication4.cpp(25): note: voir la référence à l'instanciation de classe modèle 'DynArr<float>' en cours de compilation
+c:\users\etudiant\source\repos\consoleapplication4\dynarr.hpp(20): warning C4018: '>' : incompatibilité signed/unsigned
+  c:\users\etudiant\source\repos\consoleapplication4\dynarr.hpp(19): note: pendant la compilation de la fonction membre '<Inconnu>' (classe <Inconnu>)
+  c:\users\etudiant\source\repos\consoleapplication4\consoleapplication4.cpp(42): note: voir la référence à l'instanciation de la fonction modèle 'T &DynArr<T>::Get(int)' en cours de compilation
+          with
+          [
+              T=float
+          ]
+c:\users\etudiant\source\repos\consoleapplication4\dynarr.hpp(31): warning C4018: '<' : incompatibilité signed/unsigned
+  c:\users\etudiant\source\repos\consoleapplication4\dynarr.hpp(30): note: pendant la compilation de la fonction membre '<Inconnu>' (classe <Inconnu>)
+  c:\users\etudiant\source\repos\consoleapplication4\dynarr.hpp(26): note: voir la référence à l'instanciation de la fonction modèle 'void DynArr<float>::Resize(int)' en cours de compilation
+  ConsoleApplication4.vcxproj -> C:\Users\Etudiant\source\repos\Debug\ConsoleApplication4.exe
