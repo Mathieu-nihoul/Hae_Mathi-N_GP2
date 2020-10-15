@@ -1,0 +1,11 @@
+﻿  ConsoleApplication1.cpp
+e:\sfml test2\consoleapplication1\consoleapplication1\consoleapplication1.cpp(39): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+  ConsoleApplication1.vcxproj -> E:\SFML test2\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
